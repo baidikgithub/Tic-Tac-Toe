@@ -1,0 +1,14 @@
+{
+  "name": "tic-tac-toe-app",
+  "version": "1.0.0",
+  "description": "A simple tic-tac-toe game with React frontend and Express backend",
+  "scripts": {
+    "dev": "npm run server:dev & npm run client:dev",
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm start",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["tic-tac-toe", "react", "express", "mongodb"],
+  "author": "",
+  "license": "ISC"
+}
